@@ -1,0 +1,140 @@
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Tahoma, Serif;
+  color: #263238;
+}
+
+nav {
+  display: flex; /* 1 */
+  justify-content: space-between; /* 2 */
+  padding: 1rem 2rem; /* 3 */
+  background: #cfd8dc; /* 4 */
+}
+
+nav ul {
+  display: flex; /* 5 */
+  list-style: none; /* 6 */
+}
+
+nav li {
+  padding-left: 1rem; /* 7! */
+}
+
+nav a {
+  text-decoration: none;
+  color: #0d47a1
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: arial;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.innerpara{
+  margin: 5px;
+  text-align: center;
+}
+.card-outerdiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+a:link, a:visited {
+  background-color: #cfd8dc;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: #cfd8dc;
+}
+.input-bar{
+  display: block;
+  margin: auto;
+	border: none;
+	border:solid 1px #ccc;
+  border-radius: 10px;
+	width: 50%;
+	height: 40px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 25px;
+}
+.inputbox{
+  margin-top: 20px;
+}
+.blogdiv{
+  background-color: #cfd8dc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blogimage{
+  display: inline-block;
+  height: 400px;
+  width: 400px;
+}
+.discription{
+  width: 600px;
+  margin-top:10px;
+}
+.blogcontent{
+  width: 600px;
+  margin: 5px;
+}
+.blogrecomendation{
+  width: 600px;
+  margin: 5px;
+}
+.blog-title{
+  margin: 5px;
+  color: black;
+}
